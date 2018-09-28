@@ -6,13 +6,16 @@
         </div>
     </div>
 
-    <h3 class="oe_slogan">This app is a tool to restrict User to change the Unit Price of the product on sales order for certain User once the Price list is applied.</h3>
+    <p align="left">In case user wants to restrict the sale price update to some of the user, this module could help them. After installing this module, user need to configure the rights to be provided to other users for changing the unit price of product. Here are the features of this module:</p>
 
-    <h4 class="oe_span_10 oe_centered">
-        <span class="fa fa-fighter-jet"></span>Easily grant user rights to change the unit price on Sales order. Just check 'Manage Sales Price Change' inside user Other Extra Rights settings (Odoo developer mode is required)</li><br/>
-         <span class="fa fa-fighter-jet"></span>When an person not having this right tries to change the unit price of product if the pricelist is applied on sale order than an warning is Raised.</li><br/>
-         <span class="fa fa-fighter-jet"></span>Users outside the group will not be able change the Price of product to less than the Unit Price in Sale Order.</li><br/>
-    </h4>
+    <div class="oe_centered">
+        <ul>
+            <li>Easily grant user rights to change the unit price on Sales order. </li>
+            <li>Users outside the group will not be able change the Price of product to less than the Unit Price in Sale Order.</li>
+            <li>Only if the price list is selected for the Sale Order, the restriction will be enabled.</li>
+            <li>Also if a person not having this right tries to change the unit price of product of the price list present on sale order than an warning is raised.</li>
+        </ul>
+    </div>
 
     <div class="oe_row oe_centered">
         <div class="oe_span_10 oe_centered">
@@ -20,12 +23,7 @@
                     Prerequisites before Installation </span></b></h2>
         </div>
     </div>
-    <h3 class="oe_slogan">User needs to Configure the Pricelist in the settings.Only when the Pricelist is selected on the Sale Order the restriction will take Place.</h3>
-    <div class="oe_row oe_centered">
-        <div class="oe_span12">
-            <img src="image/prerequisites.png" style="width: 100%;"/>
-        </div>
-    </div>
+    <p align="left">No prerequisites needed.</p>
 
     <div class="oe_row oe_centered">
         <div class="oe_span_10 oe_centered">
@@ -33,34 +31,45 @@
                     Configurations </span></b></h2>
         </div>
     </div>
-    <h3 class="oe_slogan"><b>After Installation of the module the user needs to give the rights to the user in the Settings to Manage the Price Change.</b></h3>
+    <div class="oe_centered">
+        <p>User needs to Configure the Pricelist rights from the settings. The module will work only when the Price list is selected on the Sale Order and if then specific user with rights can restrict the price.</p>
+    </div>
+    <div class="oe_row oe_centered">
+        <div class="oe_span12">
+            <img src="image/prerequisites.png" style="width: 100%;"/>
+        </div>
+    </div>
 
+    <div class="oe_centered">
+        <p>After Installation of the module the user provide rights to the user from Settings> Manage the Price Change.</p>
+        <p>Just check 'Manage Sales Price Change' is enabled inside User> Other Extra Rights settings</p>
+        <p><b>Note:</b> Odoo developer mode is required.</p>
+    </div>
     <div class="oe_row oe_centered">
         <div class="oe_span12">
             <img src="image/rights.png" style="width: 100%;"/>
         </div>
     </div>
 
-    <h3 class="oe_slogan"><b>For Example if the pricelist is define as below.</b></h3>
-
+    <div class="oe_centered">
+        <p>Let’s consider an example of public pricelist wherein user wants to add discount to the unit price of product.</p>
+    </div>
     <div class="oe_row oe_centered">
         <div class="oe_span12">
             <img src="image/pricelist.png" style="width: 100%;"/>
         </div>
     </div>
 
-    <div class="oe_row oe_centered">
-        <div class="oe_span_10 oe_centered">
-            <h3 class="oe_slogan" style="margin-left: 120px;"><b>
-                    Ordinary users which donot have right to manage the Price can't edit Unit Price on products </span></b></h3>
-        </div>
-    </div>
+    <div class="oe_centered">
+        <p>Users with having no rights to change the sale order price, if tries to change the price then a warning will popup as shown in the below image.</p>
     </div>
     <div class="oe_row oe_centered">
         <div class="oe_span12">
             <img src="image/error.png" style="width: 100%;"/>
         </div>
     </div>
+
+
 
 
 <!-- Don't Remove Below Part -->
